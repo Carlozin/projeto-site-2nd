@@ -85,3 +85,12 @@ visibility: hidden;
     padding: 70px 70px 20px 70px;
     color: beige;
 }
+input{
+    width: 400px;
+    height: 60px;
+    background-color: beige;
+    margin: 25px;
+    border: 1px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
