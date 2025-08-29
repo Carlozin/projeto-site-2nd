@@ -1,20 +1,6 @@
-Conversa aberta. 1 mensagem nẫo lida. 
-
-Pular para o conteudo
-Como usar o E-mail de SEED com leitores de tela
-
-1 de 7.334
-(sem assunto)
-Caixa de entrada
-
-SAMUEL TENORIO PINHEIRO DA SILVA <samuel.pinheiro.silva@escola.pr.gov.br>
-20:27 (há 2 minutos)
-para mim
-
 *{
     margin:0px;
     font-family: monospace;
-
 }
 #titulosuperior{
     margin-left: 50px;
@@ -23,74 +9,91 @@ para mim
     letter-spacing: -1.5px;
 }
 #textosuperior{
-    margin-left:50px ;
-    margin-top:35px ;
-    padding-bottom:150px ;
+    margin-left:50px;
+    margin-top:35px;
+    padding-bottom:150px;
     font-size: 25px;
-    letter-spacing: opx;
+    letter-spacing: 0px;
 }
 #menusuperior{
-    background-color: rgb(243, 237, 237)
-    color(srgb rgb(21, 20, 20) green blue);
+    background-color: rgb(176, 26, 26);
+    color: (srgb rgb(33, 175, 80) green blue);
 }
-#menuinformativo{background-color: black;
+#menuinformativo{
+    background-color: rgb(219, 212, 11);
     display: grid;
-    grid-auto-flow: coluna;
+    grid-auto-flow: column;
     column-span: auto;
 }
-.textoinformativo{display: grid;
+.textoinformativo{
+    display: grid;
     align-items: center;
-    font-size: 40 px;
+    font-size: 40px;
     font-weight: bolder;
-    padding: 75 px;
-    margin-left: 20 px;
+    padding: 75px;
+    margin-left: 20px;
 }    
 .spaninformativo{ font-size: 20px;
     font-weight: normal;
 }
 #menuconteudo{
-    background-color: #ffffff;
+    background-color: #0fb755;
     display: grid;
     grid-auto-flow:column;
-    column:auto;
+    columns:auto;
 }
-#image {
+#imagns{
     margin: 100px 25px 100px 100px;
-    
 }
-
-#textoconteudo {
+#textoconteudo{
     text-align: justify;
-    font-size: 40px
-    font-weight:bolder;
+    font-size: 40px;
+    font-weight: bolder;
     margin: 260px 25px 50px 100px;
-    
 }
-#image, #textoconteudo, #formulario {
-visibility: hidden;    
+#imagens, #textoconteudo, #formulario{
+    visibility: hidden;
 }
-
-#spanconteudo {
+#spanconteudo{
     text-align: justify;
     font-size: 24px;
     font-weight: normal;
 }
 #formulario{
-    background-color: blueviolet;
+    background-color: rgb(88, 5, 54);
     text-align: center;
-    
 }
 #tituloformulario{
     font-size: 32px;
     padding: 70px 70px 20px 70px;
-    color: beige;
+    color: #8a0303;
 }
 input{
     width: 400px;
     height: 60px;
-    background-color: beige;
+    background-color: rgb(4, 0, 255);
     margin: 25px;
     border: 1px;
     border-radius: 10px;
     padding-left: 10px;
+}
+button{
+    background-color:#c07212;
+    height:70px;
+    width:220px;
+    color: #7eaa0e;
+    border:0px;
+    border-radius:10px;
+    margin-top:50px;
+    margin-bottom:100px;
+    font-weight:bolder;
+    font-size:30px;
+    cursor:pointer;
+}
+button.houver{
+    background-color:#f88e0c;
+    color:rgb(126, 7, 7);
+    transform: translateY(-3px);
+    box-shadow:0px 10px 15px #6c4002;
+    transition-duration:0.3s;
 }
